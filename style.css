@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    font-family: sans-serif;
+}
+nav {
+    position: fixed;
+    width:100%;
+    top:0;
+    opacity: 0.5;
+    height: 80px;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-item {
+    text-decoration: none;
+    color: white;
+    margin: 0px 15px;
+}
+.nav-item:hover {
+    color:lightgreen;
+}
+  
+
+section {
+    height: 800px;
+    background-color: #f037a5;
+    background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(-60%, #f037a5),
+        color-stop(140%, #fae62d)
+    );
+}
+
+.hero-img {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container {
+    text-align: center;
+}
+.title1 {
+    color:white;
+    font-size: 80px;
+    margin: 10px 0px;
+}
+.title2 {
+    color:white;
+    font-size: 30px;
+}
+.main-container > button {
+    border-style: none;
+    width: 260px;
+    height:50px;
+    background-color: rgb(83, 211, 83);
+    border-radius: 40px;
+    font-size: 18px;
+    color: white;
+}
+.main-container > button:focus {
+    outline:none;
+    border: 1px solid white;
+}
+footer {
+    height: 440px;
+    background-color: black;
+    color:white;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+/* container > *{
+    margin: 0px 40px;
+} */
+.container {
+    max-width: 1200px;
+    width:100%;
+}
+.spotify-logo {
+    width: 200px;
+    height: 41.88px;
+}
+
+.row {
+    display:flex;
+    justify-content: space-around;
+    height:300px;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.column-icons {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.footer-header {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 18px;
+    color:rgb(120, 120, 120);
+}
+.footer-link {
+    font-size: 16px;
+    text-decoration: none;
+    color:white;
+    margin-bottom: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-link:hover {
+    color:lightgreen;
+}
+
+.circle {
+    background-color: rgb(57, 56, 56);
+    width:50px;
+    height:40px;
+    border-radius: 360px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top:12px;
+}
+
+.footer-icon:hover {
+    color: lightgreen;
+}
+
+.footer-icon {
+    font-size: 24px;
+}
+
+.row2 {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height:50px;
+}
+.flag-text {
+    margin: 0px 15px;
+    font-size: 12px;
+    color: rgb(120, 120, 120);
+}
+.flag {
+    width:26px;
+    height:26px;
+}
+.row2, .row3 {
+    padding:10px;
+}
+.row3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.row3 > * {
+    font-size: 12px;
+    text-decoration: none;
+    color:rgb(120, 120, 120);
+    margin-right:20px;
+}
+.bottom-link:hover {
+    color: darkgreen;
+}
+.author {
+    justify-self: flex-end;
+    margin: 0px 0px;
+    position: absolute;
+    right:0;
+}
