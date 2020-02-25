@@ -8,7 +8,7 @@ nav {
     position: fixed;
     width:100%;
     top:0;
-    opacity: 0.5;
+    opacity: 0.8;
     height: 80px;
     background-color: black;
     display:flex;
@@ -69,9 +69,13 @@ section {
     border-radius: 40px;
     font-size: 18px;
     color: white;
+    outline: none;
 }
 .main-container > button:focus {
     outline:none;
+}
+.main-container > button:hover {
+    background-color: darkgreen;
     border: 1px solid white;
 }
 footer {
@@ -185,4 +189,5 @@ footer {
     margin: 0px 0px;
     position: absolute;
     right:0;
+    text-decoration: none;
 }
